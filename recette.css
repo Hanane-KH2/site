@@ -1,0 +1,151 @@
+
+body {
+ background-color: #8BA1BB;
+ font-family: Arial, Helvetica, sans-serif;
+} 
+
+div.contenu{
+ background-color: white;
+ margin: 60px 10% 80px 10%;
+ padding: 30px;
+ min-width: 0px 30px 30px 30px;
+ box-shadow: 0px 0px 8px 8px rgba(0,0,0,1);
+}
+h1{
+ text-align: center;
+ margin-bottom: 16px;
+ margin-top: 15px;
+
+
+}
+p.desc{
+ text-align: center;
+ max-width: 400px;
+ display: inline-block;
+ font-size: 14px;
+}
+.center{
+ text-align: center;
+ width: 100%;
+
+ 
+}
+p.categ{  /*-- ici si id on fait # et ici ca s'applique que a classe categ de */
+ background-color: black;
+ color: white;
+ display:inline-block;
+
+ margin-top:0px;
+ padding: 8px 18px;
+ margin-bottom: 0px;
+ font-weight: bold;
+ font-size: 16px;
+}
+
+div.categd{
+ margin-bottom: 0px;
+ margin-top: px;
+ overflow: visible;
+}
+/* display : block pour occuper tt la ligne , ctrl espace pour donnée plus de valeur */
+div.sep{
+ width: 100px;
+ height: 1px;
+ background-color: black;
+margin-left: auto;
+margin-right: auto;
+}
+table.info{
+position: absolute;
+bottom:0 ; 
+width: 100%;
+color: white; 
+background-color: #6c829DC0 ; 
+max-width: 100%;
+}
+table.info td{
+ text-align: center;
+ font-size: 14px;
+ vertical-align: top;
+
+}
+table.info th{
+
+ font-size: 16px;
+ vertical-align: bottom;
+ padding-bottom: 4px;
+
+}
+
+img.info{
+    display: block;
+    max-height: 400px;
+    object-fit: cover;   /* on pert de bordure de l'image mais elle se déforme pas */
+    min-height: 200;  /* ici dans le cas ou l'image se charge a partir de l'url va prendre un peut  de temps pour se charger : comme ca on lui laisse un peut d'espace et le tableau ne se déplace par vers le haut  :*/
+    background-color: gray; /* le temps de chargé l'image , un fond gris s'affiche */
+}
+div.col{
+    width: 45%;
+    margin-top: 20px;
+}
+div.col h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6c829D;
+    padding-bottom: 5px;
+}
+
+div.colonne1{
+    
+    display: inline-block;
+    margin-right: 10%;
+}
+/*  float pour placer le div a droit*/
+div.colonne2{
+    float: right;
+  
+}
+
+div.pp p{
+    
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid;
+    border-color: lightgray;
+    padding: 8px 0;
+    margin-bottom: 0;
+    margin-top: 4px;
+    
+}
+table.prepa p.numero{
+    background-color: #6c829D;
+    color:white;
+    width:25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+
+}
+table.prepa td{
+    vertical-align: top;
+}
+table.prepa td.prepa_et{
+    font-size: 14px;
+    padding-left: 10px ;
+    padding-bottom: 10px;
+}
+table.prepa tr{
+    height: 45px;
+}
+
+/*overflow : décider a comment faire pour le contenu déborder ( qui se met en bas quand on réduit la fentre)*/
+
+*{
+    overflow: auto; /*réadapter*/
+}
